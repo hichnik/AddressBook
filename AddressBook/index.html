@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>AddressBook without any jslib</title>
+   <script src="AddressBook.js">
+        </script>
+    <link rel="stylesheet" type="text/css" href="AddressBook.css">
+<style type="text/css">
+    div.createform, div.sortform, div.searchform, div.editform {
+        background: #CCCCCC;
+        font-family:'Arial', Gadget, sans-serif;
+        float: left;
+        padding: 10px;
+        margin: 1px;
+    }
+</style>
+</head>
+<body>
+    <header id="header">
+        <h1>JavaScript AddressBook</h1>
+    </header>
+    <hr/>
+    <div class="createform">
+        firstName:&nbsp;<input type="text" name="firstname" size="10" id="firstname"/>
+        lastName:&nbsp;<input type="text" name="lastname" size="10" id="lastname"/>
+        Group:&nbsp;<select id="newGroup"></select>
+        <button id="createButton" onclick="ABModule.AddContact()">Create Contact</button>
+        &nbsp; | &nbsp;
+        <button id="editButton">Edit Contact</button>
+    </div>
+        <div style="clear:both"></div>
+    <div class="sortform">
+        Show contacts in group: <select id="contactsingroup"><option value="all">All</option></select>
+    </div>
+    <div class="searchform">
+        Filter by name/lastname: &nbsp;<input type="text" name="searchform" id="searchform" size="10"/>
+        <!--<button id="searchButton">Search</button>-->
+        </div>
+    <div class="searchform">
+        Filter by group (or part): &nbsp;<input type="text" name="searchgroup" id="searchgroup" size="10"/>
+        <!-- <button id="searchgroupButton">Search</button> -->
+        </div>
+    
+    <div style="clear:both"></div>
+    <hr/>
+    <section id="contacts">
+    </section>
+ <!--       <div class="contact">
+        <div class="contactphoto">photo</div>
+        <div class="actions">X</div>
+       <div id="contact1" class="contactdata">
+            <div class="contactfirstname">FirstName:&nbsp;Julia;</div>
+            <div class="contactlastname">LastName:&nbsp;Didkovsky;</div>
+            <div class="contactgroup">
+            Group: <select id="Select1">
+                    <option value="">Authors</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Enemies" selected="selected">Family</option>
+                    <option value="Enemies">Enemies</option>
+                    <option value="Enemies">Other</option>
+                    </select>
+            </div>
+            
+        </div>
+        </div>
+    -->
+    <div style="clear: both"> </div>
+    <hr/>
+    <footer>
+    &copy; 2013 AddressBook
+    </footer>
+     
+</body>
+</html>

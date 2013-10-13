@@ -1,0 +1,72 @@
+﻿    html, head, body {
+        margin: 0em 5%;
+        background: #4d4b0b;
+        text-align: center;
+    }
+
+    header {
+        background: #0094ff;
+        margin: 20px 0px;
+    }
+    footer {
+        color: #E0E0E0;
+        text-align:center;
+        font-family:'Arial Black', Gadget, sans-serif;
+    }
+    section#contacts {
+        margin: 10px 20px; 
+        height: 80%;
+        display: inline-block; 
+    }
+    h1 {
+        font-family:'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+        font-size: 2em;
+        text-align:center;
+        color: white;
+    }
+
+    div.contact {
+        background: white;
+        color: #404040;
+/*        padding: 5px 25px 5px 5px;*/
+        float: left;
+        text-align: left;
+        margin: 1px;
+    }
+
+        div.contactphoto {
+        width: 60px;
+        height: 60px;
+        text-align:center;
+        vertical-align:middle;
+        line-height: 60px;
+        text-transform:uppercase;
+        color: green;
+        font-family:'Arial Narrow', 'Nimbus Sans L', sans-serif;
+        background: #DDDDDD;
+        border-radius: 5px;
+        border: solid 1px #606060;
+        float: left;
+        margin: 10px;
+     
+    }
+
+
+    div.contactdata {
+        font-family:'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+        font-size:medium;
+        margin-right: 30px;
+        margin-left: 90px;
+
+    }
+       div.actions {
+        float: right;
+        background: yellow;
+        width: 20px;
+        text-align:center;
+        color: #CCCCCC;
+        font-family:Verdana, Geneva, 'DejaVu Sans', sans-serif;
+            
+    }
+
+
