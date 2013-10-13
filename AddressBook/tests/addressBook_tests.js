@@ -30,7 +30,7 @@ describe("AddressBook Application", function () {
     });
     describe("I want to be able to group my contacts", function () {
         it("I want to set a group on each contact", function () {
-            expect( ABModule.SetContactGroup ).toBeDefined();
+            expect( ABModule.SetContactGroup ).toBeDefined(); 
         });
     });
     describe("I want to be able to search by group through my contacts", function () {
